@@ -25,7 +25,7 @@ net.ipv4.tcp_tw_reuse=1 # to re-use conns in TIMEWAIT
 __TUNING__
 
 	cd EmptyEpsilon/scripts
-	wget https://raw.githubusercontent.com/Xansta/EEScenarios/master/scenario_59_border.lua -O secenario_59_border_updated.lua
+	wget https://raw.githubusercontent.com/Xansta/EEScenarios/master/scenario_59_border.lua -O scenario_59_border_updated.lua
 	sed -i~ -E 's/Borderline Fever/Borderline Fever Updated/' scenario_59_border_updated.lua
 	chown ubuntu:ubuntu scenario_59_border_updated.lua
 
